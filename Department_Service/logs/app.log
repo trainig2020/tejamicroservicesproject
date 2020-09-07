@@ -1,0 +1,334 @@
+2020-09-07 13:46:18.112  INFO 4384 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-09-07 13:46:21.659  INFO 4384 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=department-service, profiles=[default], label=null, version=224b227e356751b2713ea80d81bca67ec3a36320, state=null
+2020-09-07 13:46:21.663  INFO 4384 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/trainig2020/Ezhilarasi_GitRepo/application.properties'}]}
+2020-09-07 13:46:22.603  INFO 4384 --- [main] c.s.D.DepartmentServiceApplication       : The following profiles are active: developer
+2020-09-07 13:46:25.230  INFO 4384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-07 13:46:30.654  INFO 4384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5393ms. Found 1 JPA repository interfaces.
+2020-09-07 13:46:34.548  INFO 4384 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6e6e32ad-d43a-36a5-bade-5cd6f45ad15a
+2020-09-07 13:46:35.596  INFO 4384 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5426e9a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-07 13:46:41.343  INFO 4384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-09-07 13:46:41.448  INFO 4384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-07 13:46:41.449  INFO 4384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 13:46:42.031  INFO 4384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-07 13:46:42.032  INFO 4384 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 19380 ms
+2020-09-07 13:46:42.678  INFO 4384 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 13:46:43.021  INFO 4384 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-07 13:46:43.052  WARN 4384 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 13:46:43.055  INFO 4384 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 13:46:43.068  WARN 4384 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 13:46:43.069  INFO 4384 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 13:46:43.199  WARN 4384 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-07 13:46:44.262  INFO 4384 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-07 13:46:46.784  INFO 4384 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-07 13:46:47.340  INFO 4384 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-07 13:46:47.755  INFO 4384 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-07 13:46:50.598  INFO 4384 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-07 13:46:52.542  INFO 4384 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-09-07 13:46:54.337  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-07 13:47:00.581  INFO 4384 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-07 13:47:00.583  INFO 4384 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-07 13:47:05.094  INFO 4384 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-07 13:47:05.095  INFO 4384 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-07 13:47:06.805  INFO 4384 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 13:47:07.493  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-07 13:47:07.494  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-07 13:47:07.495  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-07 13:47:07.496  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-07 13:47:07.496  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-07 13:47:07.497  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-07 13:47:07.497  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-07 13:47:08.025  INFO 4384 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-07 13:47:08.050  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-07 13:47:08.070  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-07 13:47:08.093  INFO 4384 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-07 13:47:08.097  INFO 4384 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-07 13:47:08.110  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1599466628098 with initial instances count: 2
+2020-09-07 13:47:08.114  INFO 4384 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2020-09-07 13:47:08.116  INFO 4384 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599466628116, current=UP, previous=STARTING]
+2020-09-07 13:47:08.121  INFO 4384 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/ezhilarasi:department-service:8081: registering service...
+2020-09-07 13:47:08.370  INFO 4384 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/ezhilarasi:department-service:8081 - registration status: 204
+2020-09-07 13:47:09.210  INFO 4384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-07 13:47:09.213  INFO 4384 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2020-09-07 13:47:09.217  INFO 4384 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-07 13:47:09.732  INFO 4384 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-07 13:47:09.747  INFO 4384 --- [main] c.s.D.DepartmentServiceApplication       : Started DepartmentServiceApplication in 54.336 seconds (JVM running for 55.391)
+2020-09-07 13:52:09.994  INFO 4384 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 13:52:43.427  INFO 4384 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07 13:52:43.444  INFO 4384 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-07 13:52:47.927  INFO 4384 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4482 ms
+2020-09-07 13:53:17.169  INFO 4384 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 13:53:17.169  INFO 4384 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 13:57:12.072  INFO 4384 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 14:02:12.085  INFO 4384 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 14:05:08.816 ERROR 4384 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) ~[eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846) [eureka-client-1.9.8.jar:1.9.8]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1405) [eureka-client-1.9.8.jar:1.9.8]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_181]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_181]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_181]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.12.jar:4.5.12]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.12.jar:4.5.12]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 26 common frames omitted
+
+2020-09-07 14:05:09.144  WARN 4384 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2020-09-07 14:05:09.390  INFO 4384 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution succeeded on retry #1
+2020-09-07 14:07:12.149  INFO 4384 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 14:12:12.210  INFO 4384 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 14:13:59.938  INFO 4384 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:13:59.938  INFO 4384 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:14:34.447  INFO 4384 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:14:39.331  INFO 4384 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:14:39.886  INFO 4384 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:14:42.390  INFO 4384 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:14:52.412  INFO 4384 --- [http-nio-8081-exec-8] c.netflix.config.ChainedDynamicProperty  : Flipping property: employee-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-07 14:15:00.817  INFO 4384 --- [http-nio-8081-exec-8] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-employee-service
+2020-09-07 14:15:00.850  INFO 4384 --- [http-nio-8081-exec-8] c.netflix.loadbalancer.BaseLoadBalancer  : Client: employee-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=employee-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-07 14:15:00.938  INFO 4384 --- [http-nio-8081-exec-8] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-09-07 14:15:01.225  INFO 4384 --- [http-nio-8081-exec-8] c.netflix.config.ChainedDynamicProperty  : Flipping property: employee-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-07 14:15:01.262  INFO 4384 --- [http-nio-8081-exec-8] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client employee-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=employee-service,current list of Servers=[ezhilarasi:8082],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:ezhilarasi:8082;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@60c65e7a
+2020-09-07 14:15:01.469  INFO 4384 --- [http-nio-8081-exec-8] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-07 14:15:01.477  INFO 4384 --- [http-nio-8081-exec-8] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-07 14:15:01.994  INFO 4384 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: employee-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-07 14:17:12.437  INFO 4384 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 14:19:29.975  INFO 4384 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:19:30.717  INFO 4384 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:21:58.339  INFO 4384 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:21:58.621  INFO 4384 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:22:01.194  INFO 4384 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:01.247  INFO 4384 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:22:10.208  INFO 4384 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:12.445  INFO 4384 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 14:22:12.877  INFO 4384 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:13.645  INFO 4384 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:22:25.129  INFO 4384 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:25.228  INFO 4384 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:22:28.005  INFO 4384 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:28.656  INFO 4384 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:22:31.991  INFO 4384 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:32.387  INFO 4384 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:22:34.150  INFO 4384 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:34.208  INFO 4384 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 14:22:38.243  INFO 4384 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:40.535  INFO 4384 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 14:22:46.373  INFO 4384 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Delete the department in DB
+2020-09-07 14:22:46.940  INFO 4384 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:11:51.759  INFO 3952 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-09-07 15:11:53.361  INFO 3952 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=department-service, profiles=[default], label=null, version=224b227e356751b2713ea80d81bca67ec3a36320, state=null
+2020-09-07 15:11:53.372  INFO 3952 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/trainig2020/Ezhilarasi_GitRepo/application.properties'}]}
+2020-09-07 15:11:53.670  INFO 3952 --- [main] c.s.D.DepartmentServiceApplication       : The following profiles are active: developer
+2020-09-07 15:11:55.399  INFO 3952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-07 15:11:55.502  INFO 3952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 1 JPA repository interfaces.
+2020-09-07 15:11:56.009  INFO 3952 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6e6e32ad-d43a-36a5-bade-5cd6f45ad15a
+2020-09-07 15:11:57.159  INFO 3952 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5426e9a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-07 15:11:57.790  INFO 3952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-09-07 15:11:57.806  INFO 3952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-07 15:11:57.806  INFO 3952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 15:11:58.056  INFO 3952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-07 15:11:58.056  INFO 3952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4339 ms
+2020-09-07 15:11:58.509  INFO 3952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:11:58.668  INFO 3952 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-07 15:11:58.715  WARN 3952 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 15:11:58.715  INFO 3952 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 15:11:58.731  WARN 3952 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-07 15:11:58.731  INFO 3952 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-07 15:11:58.809  INFO 3952 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-07 15:11:58.840  WARN 3952 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-07 15:11:59.138  INFO 3952 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-07 15:11:59.397  INFO 3952 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-07 15:11:59.850  INFO 3952 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-07 15:11:59.944  INFO 3952 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-09-07 15:12:00.584  INFO 3952 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-07 15:12:02.580  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-07 15:12:03.363  INFO 3952 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-07 15:12:03.363  INFO 3952 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-07 15:12:03.410  INFO 3952 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-07 15:12:03.473  INFO 3952 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-07 15:12:04.190  INFO 3952 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-07 15:12:04.190  INFO 3952 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-07 15:12:04.630  INFO 3952 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:12:05.569  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-07 15:12:05.576  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-07 15:12:05.576  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-07 15:12:05.576  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-07 15:12:05.577  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-07 15:12:05.577  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-07 15:12:05.579  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-07 15:12:05.850  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-07 15:12:05.866  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-07 15:12:05.866  INFO 3952 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-07 15:12:05.897  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1599471725882 with initial instances count: 2
+2020-09-07 15:12:05.897  INFO 3952 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DEPARTMENT-SERVICE with eureka with status UP
+2020-09-07 15:12:05.897  INFO 3952 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599471725897, current=UP, previous=STARTING]
+2020-09-07 15:12:05.913  INFO 3952 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/ezhilarasi:department-service:8081: registering service...
+2020-09-07 15:12:06.033  INFO 3952 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_DEPARTMENT-SERVICE/ezhilarasi:department-service:8081 - registration status: 204
+2020-09-07 15:12:06.189  INFO 3952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-07 15:12:06.189  INFO 3952 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2020-09-07 15:12:06.205  INFO 3952 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-07 15:12:06.776  INFO 3952 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-07 15:12:06.790  INFO 3952 --- [main] c.s.D.DepartmentServiceApplication       : Started DepartmentServiceApplication in 16.812 seconds (JVM running for 17.56)
+2020-09-07 15:17:08.279  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:19:36.268  INFO 3952 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-07 15:19:36.350  INFO 3952 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-07 15:19:47.389  INFO 3952 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10919 ms
+2020-09-07 15:20:18.521  INFO 3952 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:20:18.521  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:20:18.521  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:21:07.533  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:21:09.985  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:21:13.976  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:21:14.171  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:21:18.567  INFO 3952 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:21:45.752  INFO 3952 --- [http-nio-8081-exec-8] c.netflix.config.ChainedDynamicProperty  : Flipping property: employee-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-07 15:22:04.558  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:22:05.254  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:22:06.488  INFO 3952 --- [http-nio-8081-exec-8] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-employee-service
+2020-09-07 15:22:06.514  INFO 3952 --- [http-nio-8081-exec-8] c.netflix.loadbalancer.BaseLoadBalancer  : Client: employee-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=employee-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-07 15:22:06.903  INFO 3952 --- [http-nio-8081-exec-8] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-09-07 15:22:08.288  INFO 3952 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: employee-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-07 15:22:08.395  INFO 3952 --- [http-nio-8081-exec-8] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client employee-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=employee-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: [[Server:ezhilarasi:8082;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@18c85bf0
+2020-09-07 15:22:08.924  INFO 3952 --- [http-nio-8081-exec-8] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-07 15:22:08.924  INFO 3952 --- [http-nio-8081-exec-8] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-07 15:22:10.822  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:22:37.141  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:22:37.511  INFO 3952 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:22:38.705  INFO 3952 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: employee-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-07 15:23:21.135  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:23:21.159  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:24:24.000  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:24:25.520  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:24:36.799  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:24:37.000  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:27:10.896  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:27:55.511  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:32:11.023  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:32:32.772  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : Add Department in DB
+2020-09-07 15:32:58.197  INFO 3952 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : Add Department in DB
+2020-09-07 15:32:59.977  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:33:20.385  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : Delete the department in DB
+2020-09-07 15:33:20.935  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:33:33.765  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Add Department in DB
+2020-09-07 15:33:34.102  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:33:41.821  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : Add Department in DB
+2020-09-07 15:33:42.338  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:33:54.775  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : Update a particular department in DB
+2020-09-07 15:33:55.037  INFO 3952 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:34:01.300  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:34:14.889  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Update a particular department in DB
+2020-09-07 15:34:15.032  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:34:20.444  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Delete the department in DB
+2020-09-07 15:34:20.572  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:34:51.209  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Delete the department in DB
+2020-09-07 15:34:51.387  INFO 3952 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:35:56.911  INFO 3952 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:35:57.029  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:35:57.186  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:36:17.910  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Add Employee in DB
+2020-09-07 15:36:31.822  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:36:32.234  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:36:58.918  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : Add Employee in DB
+2020-09-07 15:36:59.727  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:36:59.766  INFO 3952 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:37:11.308  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:37:11.558  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:37:11.621  INFO 3952 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:37:18.466  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:37:18.567  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:37:33.668  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Add Employee in DB
+2020-09-07 15:37:33.930  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:37:33.979  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:37:37.254  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:37:37.348  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:37:48.524  INFO 3952 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:37:48.612  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:37:52.442  INFO 3952 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:37:52.504  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:38:06.542  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : Update the particular Employee in DB
+2020-09-07 15:38:06.746  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:38:06.839  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:38:12.221  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:38:12.298  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:38:20.978  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Delete the Employee in DB
+2020-09-07 15:38:21.134  INFO 3952 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:38:21.199  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:42:11.344  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:47:11.364  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:51:41.530  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 15:51:45.136  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 15:52:11.499  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 15:57:11.523  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 16:02:11.634  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 16:02:16.041  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:02:20.418  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:02:21.181  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:02:21.502  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 16:07:09.110  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:07:12.173  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 16:07:12.196  INFO 3952 --- [http-nio-8081-exec-1] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:07:12.512  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:07:12.699  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 16:12:12.175  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 16:17:12.200  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 16:20:20.321  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:20:23.558  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:20:23.913  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:20:24.121  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 16:20:45.439  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : Add Employee in DB
+2020-09-07 16:20:49.263  INFO 3952 --- [http-nio-8081-exec-8] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:20:49.607  INFO 3952 --- [http-nio-8081-exec-2] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 16:22:12.263  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 16:27:12.452  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-07 16:29:04.674  INFO 3952 --- [http-nio-8081-exec-10] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:29:04.823  INFO 3952 --- [http-nio-8081-exec-4] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 16:29:11.591  INFO 3952 --- [http-nio-8081-exec-5] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:29:11.859  INFO 3952 --- [http-nio-8081-exec-6] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 16:29:35.313  INFO 3952 --- [http-nio-8081-exec-7] c.s.D.controller.DepartmentController    : Add Employee in DB
+2020-09-07 16:29:35.770  INFO 3952 --- [http-nio-8081-exec-9] c.s.D.controller.DepartmentController    : Department List
+2020-09-07 16:29:35.938  INFO 3952 --- [http-nio-8081-exec-3] c.s.D.controller.DepartmentController    : List all Employees based on Dept Id
+2020-09-07 16:32:12.493  INFO 3952 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
